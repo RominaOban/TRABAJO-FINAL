@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Obsoletas vs Modernas</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Evolución del HTML</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio - Evolución del HTML</a></li>
+            <li><a href="evolucion.html">Línea de Tiempo sobre la evolución de HTML</a></li>
+            <li><a href="comparacion.html">HTML5: Cómo cambiaron las etiquetas</a></li>
+            <li><a href="galeria.html">Galería HTML</a></li>
+            <li><a href="formulario.html">Formulario (Demostrativo)</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>¿Por qué algunas etiquetas fueron reemplazadas?</h2>
+            <p>
+                Con el avance de la web, el lenguaje HTML tuvo que volverse más claro, 
+                semántico y accesible. Por esta razón, muchas etiquetas antiguas dejaron 
+                de ser útiles o causaban confusión, siendo declaradas obsoletas en HTML5 
+                y reemplazadas por alternativas más modernas.
+            </p>
+        </section>
+
+        <section>
+            <h3>Tabla Comparativa</h3>
+
+            <table style="border-collapse: collapse; width: 100%;">
+
+                <thead>
+                    <tr style="background-color: #7f1cca; color: rgb(255, 255, 255);">
+                        <th style="border: 1px solid #4525d1; padding: 8px;">Etiqueta Obsoleta</th>
+                        <th style="border: 1px solid #4525d1; padding: 8px;">Etiqueta Moderna</th>
+                        <th style="border: 1px solid #4525d1; padding: 8px;">Motivo del Cambio</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr style="background-color: #a1ecffe8;">
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">&lt;font&gt;</td>
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">&lt;span&gt;</td>
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">
+                            Separar estilo del contenido, ya que el estilo ahora va en CSS.
+                        </td>
+                    </tr>
+
+                    <tr style="background-color: #d1f4fd;">
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">&lt;center&gt;</td>
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">Estructura + CSS</td>
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">
+                            HTML5 elimina etiquetas de presentación.
+                        </td>
+                    </tr>
+
+                    <tr style="background-color: #a1ecffe8;">
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">&lt;u&gt;</td>
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">&lt;span&gt;</td>
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">
+                            Evitar confusión con enlaces subrayados.
+                        </td>
+                    </tr>
+
+                    <tr style="background-color: #d1f4fd;">
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">&lt;strike&gt;</td>
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">&lt;del&gt;</td>
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">
+                            Mejor semántica para texto eliminado.
+                        </td>
+                    </tr>
+
+                    <tr style="background-color: #a1ecffe8;">
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">&lt;big&gt;</td>
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">&lt;span&gt;</td>
+                        <td style="border: 1px solid #7f1cca; padding: 8px;">
+                            El tamaño se controla mediante estilos externos.
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+
+        <section>
+            <h2>Obsoleto vs Moderno</h2>
+
+            <article>
+                <h3>&lt;font&gt; <span>vs</span> &lt;span&gt;</h3>
+                <p>
+                    <strong>&lt;font&gt;</strong> era usada para modificar color y tamaño del texto, 
+                    pero mezclaba estilo con contenido.<br>
+                    <strong>&lt;span&gt;</strong> es más flexible y permite aplicar estilo de forma 
+                    externa sin alterar la semántica del documento.
+                </p>
+            </article>
+
+            <article>
+                <h3>&lt;center&gt; <span>vs</span> Estructura HTML + Alineación</h3>
+                <p>
+                    <strong>&lt;center&gt;</strong> ya no existe en HTML5 porque no es semántica.  
+                    Hoy se estructura el contenido con etiquetas como &lt;section&gt; y 
+                    se centra visualmente usando propiedades externas (CSS).
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Más ejemplos de etiquetas obsoletas</h2>
+            <p>Algunos ejemplos extra de etiquetas que quedaron obsoletas son:</p>
+
+            <ul>
+                <li>&lt;acronym&gt; → <strong>Reemplazada por</strong> &lt;abbr&gt;</li>
+                <li>&lt;tt&gt; → <strong>Reemplazada por</strong> &lt;code&gt;</li>
+                <li>&lt;frameset&gt; → <strong>Eliminada</strong>, no era accesible</li>
+                <li>&lt;big&gt; → <strong>CSS</strong> controla el tamaño del texto</li>
+                <li>&lt;marquee&gt; → <strong>Eliminada</strong>, no era accesible</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>2025 - Proyecto HTML</p>
+        <p>Estudiante: Dayana Romina Obando Cedeño</p>
+    </footer>
+
+</body>
+</html>
